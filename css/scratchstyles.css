@@ -11,7 +11,7 @@ a:hover{
 }
 
 a:visited{
-    color: deeppink;
+    color: maroon;
 }
 
 h1 {
@@ -32,16 +32,16 @@ li{
 
 .subheading {
     font-weight: bold;
-    color: black;
+    color: #6b0101;
 }    
 
 .subtitle{
-    color: #404040;
+    color: #6b0101;
     text-decoration: underline
 }
 
 .tableautitle {
-    color: blue
+    color: #404040
 }
 
 .common {
@@ -54,13 +54,13 @@ li{
     top: 5px; /*(attribute that) Tells browser that we want our elements to start 5px down from the top*/
     left: 5px; /*Tells elements to start 5px from the left*/
     right: 5px;
-    height: 100px; /*Tells element to be 100 pixels from top-to-bottom. This means that bottom of the element is 105px from the top of the screen*/
+    height: 25px; /*Tells element to be 100 pixels from top-to-bottom. This means that bottom of the element is 105px from the top of the screen*/
     z-index: 2;
     border-bottom: solid 1px #555555;
 }
 
 .leftmenu { /*You cannot set all four sides and set height/width bc they will conflict with each other.*/
-    top: 95px;
+    top: 15px;
     left: 5px;
     width: 200px;
     bottom: 39px;
@@ -70,7 +70,7 @@ li{
 }
 
 .mainbody {
-    top: 114px;
+    top: 35px;
     left: 204px;
     right: 114px;
     /*bottom: 39px;*/
@@ -82,7 +82,7 @@ li{
 }
 
 .rightmenu {
-    top: 95px;
+    top: 15px;
     right: 5px;
     width: 100px;
     bottom: 39px;
