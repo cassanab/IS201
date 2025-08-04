@@ -10797,6 +10797,11 @@ header.masthead .post-heading .meta a {
   }
 }
 
-.extra {
-  font-style: bold
+.header {
+    top: 5px; /*(attribute that) Tells browser that we want our elements to start 5px down from the top*/
+    left: 5px; /*Tells elements to start 5px from the left*/
+    right: 5px;
+    height: 360px; /*Tells element to be 100 pixels from top-to-bottom. This means that bottom of the element is 105px from the top of the screen*/
+    z-index: 2;
+    border-bottom: solid 1px #555555;
 }

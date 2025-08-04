@@ -1,0 +1,108 @@
+a{color: black;
+    text-decoration: dashed;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    text-align: right
+}
+
+a:hover{
+    text-decoration: overline;
+    /* font-weight: bold; */
+    /* font-size: 18px; */
+}
+
+a:visited{
+    color: deeppink;
+}
+
+h1 {
+    color: black
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: maroon;
+    background-color: peachpuff
+}
+
+li{
+    font-weight: normal;
+    color: maroon
+}
+
+.subheading {
+    font-weight: bold;
+    color: black;
+}    
+
+.subtitle{
+    color: #404040;
+    text-decoration: underline
+}
+
+.tableautitle {
+    color: blue
+}
+
+.common {
+    /* background-color: #CCCCCC; */
+    border: none;
+    position: absolute; /*tells the browser to ignore all other html elements around an element and pretend that they don't exist. Implication is that the elements won't see each other and will collide and appear on top of each other. Absolute removes the block aspect nature of the elements. It doesn't have a hard return anymore.*/
+}
+
+.header {
+    top: 5px; /*(attribute that) Tells browser that we want our elements to start 5px down from the top*/
+    left: 5px; /*Tells elements to start 5px from the left*/
+    right: 5px;
+    height: 100px; /*Tells element to be 100 pixels from top-to-bottom. This means that bottom of the element is 105px from the top of the screen*/
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu { /*You cannot set all four sides and set height/width bc they will conflict with each other.*/
+    top: 95px;
+    left: 5px;
+    width: 200px;
+    bottom: 39px;
+    z-index: 3;
+    padding-top: 20px;
+    
+}
+
+.mainbody {
+    top: 114px;
+    left: 204px;
+    right: 114px;
+    /*bottom: 39px;*/
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 1;
+    border-right: solid 1px #555555;
+    border-left: solid 1px #555555;
+}
+
+.rightmenu {
+    top: 95px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    padding-left: 5px;
+    
+}
+
+.footer { /*Elements that are attached to the sides will automatically adjust to a screen that changes size, but those with fixed measurements will not adjust*/
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 15
+}
+
+.subheader {
+    float: right;
+}
